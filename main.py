@@ -78,10 +78,10 @@ class Player():
         #keyboard press
         key=pygame.key.get_pressed()
         if key[pygame.K_a]:
-            dx=-10
+            dx=-12
             self.flip=True
         if key[pygame.K_d]:
-            dx=10
+            dx=12
             self.flip=False
         
         #gravity
