@@ -42,9 +42,9 @@ font_small=pygame.font.SysFont("Comic Sans",24)
 font_big=pygame.font.SysFont("Lucida Sans",24)
 
 #images
-player_img=pygame.image.load("images/chuck.png").convert_alpha()
-bg_img=pygame.image.load("images/white.png").convert_alpha()
-plat_img=pygame.image.load("images/plat.png").convert_alpha()
+player_img=pygame.image.load("images/chuck.png")
+bg_img=pygame.image.load("images/white.png")
+plat_img=pygame.image.load("images/plat.png")
 
 #text function
 def draw_text(text,font,text_col,x,y):
